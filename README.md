@@ -9,11 +9,11 @@ This project is a full-stack web application built with React and Node.js, desig
  npm install 
  npm start
 
-##Backend
+## Backend
 npm install
 npm init
 install all the packages like mongoose,express,cors 
-node 
+node index.js 
 
 
 ## Screenshots
