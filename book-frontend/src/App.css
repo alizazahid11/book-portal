@@ -1,0 +1,434 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+body{
+  background-image: url('https://static.vecteezy.com/system/resources/previews/005/776/619/large_2x/pink-water-color-pattern-background-great-design-for-wallpaper-backgrounds-decorations-clothing-gift-wrap-book-covers-and-creative-projects-t-shirts-pod-product-fabric-free-photo.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  width: 100%; /* Adjust as needed */
+  height: 80vh; 
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(48, 0, 66, 0.1);
+  margin-top:8%;
+  padding-bottom: 2%;
+
+  background: linear-gradient(to bottom,rgb(102, 67, 102),rgb(245, 206, 213));
+}
+.login-container h2{
+  font-family:Arial, Helvetica, sans-serif;
+margin-left: -20px;
+ color:white;
+ font-size: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: -58%;
+  color: white !important;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+input[type='text'],
+input[type='password'],
+input[type='email']{
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 3%;
+
+}
+
+button {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background:linear-gradient(to left,rgb(241, 214, 238),rgb(0, 50, 97));
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-left: 90px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+  background:linear-gradient(to right,rgb(235, 157, 212),rgb(81, 0, 97));
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='email']:focus {
+  outline: none; 
+  border-color: #ccc; 
+}
+.link{
+  color:white;
+  margin-left: -20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(48, 0, 66, 0.1);
+  margin-top:1%;
+  padding-bottom: 2%;
+  background: linear-gradient(to bottom,rgb(102, 67, 102),rgb(245, 206, 213));
+}
+.signup-container h2{
+  font-family:Arial, Helvetica, sans-serif;
+margin-left: -20px;
+ color:white;
+ font-size: 25px;
+}
+.nav-ul{
+  
+  padding:5px;
+  margin:0px;
+  background:linear-gradient(to right,rgb(102, 67, 102),rgb(245, 206, 213));
+}
+.nav-ul li{
+  display: inline-block;
+  padding:10px;
+
+}
+.nav-ul li a{
+  color:white;
+  text-decoration: none;
+  padding :5px;
+  font-weight: bold;
+}
+.nav-ul li a:hover,
+.nav-ul li a:focus, 
+.nav-ul li a:active {
+  color: rgb(245, 206, 213);
+}
+.logo{
+  width:45px;
+  height:45px;
+  border-radius: 50%;
+  float: left;
+  margin-top:3px;
+  margin-left: 10px;
+}
+.footer{
+  position: absolute;
+  /* padding: 10px 0; */
+  bottom: 0;
+  background:linear-gradient(to left,rgb(102, 67, 102),rgb(245, 206, 213)); 
+  width: 100%;
+  text-align: center;
+  color:white;
+  
+
+}
+.email-field{
+  margin-right: 20px;
+}
+.signup-email{
+  margin-right: 28px;
+}
+.invalid-input{
+  display:block;
+  color:red;
+  margin-top: -35px;
+  margin-left: 20px;
+}
+.add-book{
+margin-left: 24%;
+  width:50%;
+  margin-top: 60px;
+}
+.add-book h1{
+ color:purple;
+ text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.appButton{
+  margin: 16px;
+  width: 150px;
+  padding: 10px;
+  background:linear-gradient(to left,rgb(1, 61, 101),rgb(81, 0, 97));
+  border: solid 1px;
+  cursor: pointer;
+  margin-left:39%;
+}
+.appButton:hover{
+  background:linear-gradient(to right,rgb(235, 157, 212),rgb(81, 0, 97));
+}
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.book-list h3{
+  color:purple;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 35px;
+  margin-top: -1%;
+  margin-left: 18%;
+ 
+}
+.book-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+  gap: 20px; /* Adjust the spacing between cards */
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.book-card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; 
+  text-align: center;
+  
+}
+
+
+.book-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color:purple;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.book-author,
+.book-category,
+.book-url {
+  margin: 5px 0;
+}
+.book-url a:hover{
+  color:purple;
+}
+.book-url a:focus{
+  color:rgb(166, 134, 255);
+}
+.btn {
+ 
+  padding: 10px 28px;
+  margin: 20px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  background:linear-gradient(to left,rgb(231, 201, 229),rgb(0, 2, 97));
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background:linear-gradient(to right,rgb(235, 157, 212),rgb(81, 0, 97));
+}
+
+.button-container {
+  
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 10px; 
+}
+.search{
+  width:40px;
+  margin:20px;
+  padding-left: 30px;
+  border: 1px solid #61dafb;
+  margin-left: -200%;
+  margin-top: 24%;
+  border-radius: 1px;
+}
+.search-conatiner{
+  width: 400px;
+}
+.search-button{
+  margin-top: -19.5%;
+margin-left: -42px;
+border-radius: 1px;
+}
+.review-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(66, 65, 65, 0.1);
+}
+
+.review-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color:purple;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.review-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form input[type="text"],
+.review-form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 60%;
+ margin-left: 18%;
+}
+
+.review-form textarea {
+  resize: vertical;
+  min-height: 100px;
+  width: 60%;
+}
+
+.review-form button[type="submit"] {
+   width: 30% !important;
+   margin-left: 32% !important;
+   margin-top: -1px;
+}
+
+.review-list {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color:purple;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.review {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.review p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.review p strong {
+  font-weight: bold;
+  color: #ed69f1;
+}
+.about-us-page {
+  padding: 20px;
+}
+
+.abt-hea{
+  color:purple;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 35px;
+  margin-top: 4%;
+ 
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 22%;
+  margin: 5px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  margin-top: 35px;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card h3 {
+  color:purple;
+ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+  margin-bottom: 20px;
+}
+.fe-hea{
+  color:purple;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  font-size: 35px;
+  margin-top: 2%;
+}
