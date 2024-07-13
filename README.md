@@ -11,9 +11,9 @@ This project is a full-stack web application built with React and Node.js, desig
 
 ## Backend
 npm install
-npm init
-install all the packages like mongoose,express,cors 
-node index.js 
+npm init  # only if package.json is not present
+npm install mongoose express cors
+node index.js
 
 
 ## Screenshots
