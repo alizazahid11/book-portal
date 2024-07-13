@@ -5,7 +5,15 @@
 
 This project is a full-stack web application built with React and Node.js, designed to manage a book portal. It includes functionalities for user authentication (signin and login), managing a list of books, updating book details, displaying product information,and a feedback & review page. This README provides an overview of the project's features, installation instructions, and usage guidelines.
 
+## Frontend 
+ npm install 
+ npm start
 
+##Backend
+npm install
+npm init
+install all the packages like mongoose,express,cors 
+node 
 
 
 ## Screenshots
