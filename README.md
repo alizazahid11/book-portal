@@ -10,22 +10,22 @@ This project is a full-stack web application built with React and Node.js, desig
 
 ## Screenshots
 ### Login
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/3.jpeg?raw=true)
 
 ### Signup
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/2.jpeg?raw=true)
 
 ### Display Books
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/7.jpeg?raw=true)
 
 ### Add Books
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/4.jpeg?raw=true)
 
 ### Update Books
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/6.jpeg?raw=true)
 
 ### Reviews & Feedback
-![App Screenshot](https://github.com/alizazahid11/book-portal01/blob/master/asset/signin.png?raw=true)
+![App Screenshot](https://github.com/alizazahid11/book-portal/blob/main/assets/1.jpeg?raw=true)
 
 ## Tech Stack
 
